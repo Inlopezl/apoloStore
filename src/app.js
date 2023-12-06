@@ -4,7 +4,7 @@ const path = require('path');
 const app = express();
 
 // Configuración para servir archivos estáticos desde la carpeta 'public'
-app.use(express.static(path.join(__dirname, 'public')));
+app.use(express.static(path.join(__dirname, '../public')));
 
 // Configuración de la conexión a la base de datos
 const connection = mysql.createConnection({

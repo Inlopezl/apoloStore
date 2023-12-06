@@ -1,6 +1,6 @@
 // main-controller.js
 const path = require('path');
-const db = require('../models'); // Importa la conexión de Sequelize
+const db = require('../database/models'); // Importa la conexión de Sequelize
 
 let baseUrl = "http://localhost:3031"
 let url = '/api'
