@@ -3,21 +3,52 @@
     margin: 0;
 
 }
-
-header ul {
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
     display: flex;
-    background-color: blueviolet;
-    text-decoration: none;
+    flex-direction: column;
+    min-height: 100vh; /* Asegura que el cuerpo ocupe al menos el 100% de la altura de la ventana */
 }
 
-header ul li {
-    background-color: yellow;
-    margin: 12px;
-    list-style: none;
-    
+header {
+    background: #000;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
 }
 
+.brand {
+    margin: 0;
+}
 
+.logo {
+    width: 50px; /* Ajusta el ancho de la imagen según sea necesario */
+    height: auto;
+}
+
+.content {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f0f0f0; /* Color de fondo de la columna */
+    padding: 20px;
+}
+  
+.centered-column {
+    text-align: center;
+}
+  
+footer {
+    background-color: #000;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+  
 
 .pie{
     background-color: #524b4a;
@@ -35,56 +66,6 @@ img{
 }
 
 
-.instagram{
-    padding: 5px;
-    border-radius: 30px;
-    color: orangered;
-}
-.tiktok{
-    padding: 5px;
-    border-radius: 30px;
-    color: black;
-}
-.wpp{
-    padding: 5px;
-    border-radius: 30px;
-    color: green;
-}
-.arriba{
-    display: flex;
-    justify-content: space-between;
-    padding: 10px;
-    align-items: center;
-    /*background-color: blue;*/
-}
-.logotipo{
-    font-size: 30px;
-    color: rgb(255, 255, 255);
-   /* background-color: red;*/
-}
-
-.section{
-    
-    display: flex;
-    justify-content: space-around;
-    gap: 40px;
-    
-}
-
-.section2 {
-    background-color: blueviolet;
-}
-.section div{
-    display: flex;
-    flex-direction: column;
-    background-color: red;
-}
-
-
-div h2{
-    color: white;
-    padding: 10px 0;
-}
 .section a{
     color: white;
     text-decoration: none;
@@ -165,3 +146,17 @@ button{
 .body_inicio h1{
     color: white;
 }
+
+
+
+#list .row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    margin: 30px; /* Espaciado entre las tarjetas */
+}
+
+

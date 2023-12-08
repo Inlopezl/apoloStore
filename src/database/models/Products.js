@@ -10,6 +10,26 @@ module.exports = (sequelize, dataTypes) => {
             type: dataTypes.STRING,
             allowNull: false
         },
+        category_id: {
+            type: dataTypes.INTEGER,
+            allowNull: false
+        },
+        colors_id: {
+            type: dataTypes.INTEGER,
+            allowNull: false
+        },
+        price: {
+            type: dataTypes.INTEGER,
+            allowNull: false
+        },
+        description: {
+            type: dataTypes.STRING,
+            allowNull: false
+        },
+        img: {
+            type: dataTypes.STRING,
+            allowNull: false
+        }
     }
     let config={
         tableName: "products",

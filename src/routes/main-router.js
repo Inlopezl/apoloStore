@@ -2,6 +2,8 @@ const express = require('express');
 const router = express.Router();
 const mainController = require('../controllers/main-controller');
 const path = require('path');
+let url = '/api';
+
 
 router.get("/", mainController.home);
 
@@ -20,6 +22,15 @@ router.get("/pantalones", (req, res) => {
     let filepath = path.join(__dirname, '../views/pantalones.html');
     res.sendFile(filepath);
   });
-// Otras rutas...
 
+router.get(url+'/', mainController.apiHome);
+
+router.get(url+'/productos', mainController.apiProducts);
+router.get(url+'/productos'+'/:id', mainController.apiProductDetail);
+
+router.post(url+'/productos', mainController.apiProductCreate);
+
+router.delete(url+'/productos'+'/:id', mainController.apiProductDelete);
+
+module.exports = router;
 module.exports = router;

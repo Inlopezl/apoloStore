@@ -2,21 +2,21 @@
   "development": {
     "username": "336942",
     "password": "Grupo6db",
-    "database": "apoloStore_db",
+    "database": "apolostore_db",
     "host": "mysql-apolostore.alwaysdata.net",
     "dialect": "mysql"
   },
   "test": {
     "username": "336942",
     "password": "Grupo6db",
-    "database": "apoloStore_db",
+    "database": "apolostore_db",
     "host": "mysql-apolostore.alwaysdata.net",
     "dialect": "mysql"
   },
   "production": {
     "username": "336942",
     "password": "Grupo6db",
-    "database": "apoloStore_db",
+    "database": "apolostore_db",
     "host": "mysql-apolostore.alwaysdata.net",
     "dialect": "mysql"
   }

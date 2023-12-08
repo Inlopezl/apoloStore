@@ -8,10 +8,10 @@ app.use(express.static(path.join(__dirname, '../public')));
 
 // Configuración de la conexión a la base de datos
 const connection = mysql.createConnection({
-    host: 'tu-host',
-    user: 'tu-usuario',
-    password: 'tu-contraseña',
-    database: 'tu-nombre-de-base-de-datos'
+    host: 'mysql-apolostore.alwaysdata.net',
+    user: '336942',
+    password: 'Grupo6db',
+    database: 'apolostore_db'
   });
   
   connection.connect((err) => {
