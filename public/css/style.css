@@ -10,7 +10,6 @@ body {
     flex-direction: column;
     min-height: 100vh; /* Asegura que el cuerpo ocupe al menos el 100% de la altura de la ventana */
 }
-
 header {
     background: #000;
     color: #fff;
@@ -18,6 +17,26 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 10px;
+}
+
+.fa-solid{
+    color: #fff;
+    padding-right: 20px;
+}
+.left-section, .right-section {
+    display: flex;
+    align-items: center;
+}
+
+.center-section {
+    flex-grow: 1;
+    text-align: center;
+    width: 1500%;
+}
+
+.logo {
+    max-width: 100%;
+    height: auto;
 }
 
 .brand {
